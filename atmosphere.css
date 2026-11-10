@@ -1,0 +1,18 @@
+/* Quiet paper, a stationary wash of blue, and short entrance transitions. */
+body{background:transparent;isolation:isolate}
+body::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background-color:#fff;background-image:radial-gradient(ellipse at 88% 3%,rgba(115,151,188,.075),transparent 42%),radial-gradient(ellipse at 5% 72%,rgba(157,175,184,.045),transparent 38%),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.72' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' opacity='.025' filter='url(%23n)'/%3E%3C/svg%3E");background-size:auto,auto,160px 160px}
+.header{background:rgba(255,255,255,.94);backdrop-filter:blur(12px)}
+.section-heading,.honors-nav{border-bottom-color:rgba(125,149,171,.17)}
+.section-heading{position:relative}
+.section-heading::after{content:'';position:absolute;bottom:-1px;left:0;width:28px;height:1px;background:#9aaec3}
+.honors-main>h1{letter-spacing:-.3px}
+.honors-toc{max-height:calc(100vh - 60px);overflow-y:auto;scrollbar-width:thin;scrollbar-color:#dce3eb transparent}
+.honors-toc button{transition:color .2s,background-color .2s;border-radius:4px;padding-left:7px;margin-left:-7px}
+.honors-toc button.active{background:rgba(79,116,160,.055)}
+.honors-grid .award-card{background:transparent;scroll-margin-top:30px}
+.honors-grid .award-card-featured{background:linear-gradient(120deg,#f4f7fc,#fafbfd)}
+.award-image-button{transition:border-color .22s,box-shadow .22s}
+.award-image-button:hover{box-shadow:0 5px 18px #28496d0b}
+.motion-enter{animation:quiet-enter .65s cubic-bezier(.2,.65,.3,1) both}
+@keyframes quiet-enter{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.motion-enter{animation:none}.honors-toc button,.award-image-button{transition:none}}

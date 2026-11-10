@@ -1,0 +1,564 @@
+{
+  "content": {
+    "schemaVersion": 1,
+    "copy": {
+      "en": {
+        "skip": "Skip to content",
+        "navAbout": "About Me",
+        "navProjects": "Projects",
+        "navAwards": "Honors and Awards",
+        "navBasketball": "Basketball",
+        "navService": "Service",
+        "role": "Computer Science Undergraduate · Elite Class",
+        "university": "Northwestern Polytechnical University",
+        "location": "Xi’an, China",
+        "profileNote": "Engineering · Basketball · Community",
+        "eyebrow": "A little about me",
+        "hello": "Hi, I’m Jianwei.",
+        "intro": "I’m <strong>Jianwei Jiao (焦建维)</strong>, a 2024-cohort undergraduate in <strong>Computer Science and Technology (Elite Class)</strong> at <a href=\"https://en.nwpu.edu.cn/\" target=\"_blank\" rel=\"noopener\">Northwestern Polytechnical University</a>’s <a href=\"https://jsj.nwpu.edu.cn/en/About_CS.htm\" target=\"_blank\" rel=\"noopener\">School of Computer Science</a>.",
+        "intro2": "My interests lie in <strong>multimodal understanding and vision-language models</strong>, with a current focus on <strong>open-vocabulary segmentation and test-time adaptation</strong>.",
+        "educationLabel": "Education",
+        "degree": "School of Computer Science · Computer Science and Technology (Elite Class) · Undergraduate",
+        "expected": "Expected graduation",
+        "projectsTitle": "Projects",
+        "projectsDeck": "Software, creative work and hands-on teamwork.",
+        "awardsTitle": "Selected Honors and Awards",
+        "basketballTitle": "Basketball",
+        "courtLabel": "Basketball & officiating",
+        "courtTitle": "Another kind of teamwork.",
+        "courtBody": "Basketball is also part of my university life — through officiating, association work and supporting campus competitions.",
+        "serviceTitle": "Student Leadership & Service",
+        "serviceDeck": "Contributing to the communities I’m part of.",
+        "volunteerTitle": "Hours of volunteer service",
+        "volunteerBody": "Campus activities, community initiatives and social practice.",
+        "contactLabel": "Get in touch",
+        "contactTitle": "Let’s stay connected.",
+        "backTop": "Back to top",
+        "moreAwards": "View all honors and awards",
+        "lessAwards": "Show selected awards",
+        "details": "View details",
+        "close": "Close details",
+        "projectLabel": "Project notes",
+        "roleLabel": "Role & contribution",
+        "contextLabel": "Context",
+        "noteLabel": "Additional information",
+        "educationNav": "Education",
+        "intro3": "I’m passionate about exploring the frontiers of AI and believe in <strong>AGI</strong>. Beyond research, I enjoy software development and take part in basketball officiating, student organizations and volunteer service.",
+        "navOthers": "Others",
+        "othersTitle": "Others",
+        "contactBody": "I welcome conversations about multimodal understanding and vision-language models, and I’m interested in research collaborations and internship opportunities where I can learn and contribute.",
+        "contactBody2": "I’m also happy to exchange ideas about AI projects, discuss methods and implementation, or explore something new together. If our interests overlap, feel free to get in touch by email or connect with me on GitHub.",
+        "aboutKicker": "ABOUT ME",
+        "introRobotics": "I also work on <strong>robotics research</strong>. Our team won <strong>two championships, one runner-up title and one third-place finish</strong> at <strong>RoboCup China 2026</strong>."
+      },
+      "zh": {
+        "skip": "跳到正文",
+        "navAbout": "关于",
+        "navProjects": "项目",
+        "navAwards": "获奖",
+        "navBasketball": "篮球",
+        "navService": "学生工作",
+        "role": "计算机科学与技术拔尖班本科生",
+        "university": "西北工业大学",
+        "location": "中国 · 西安",
+        "profileNote": "工程实践 · 篮球 · 社区服务",
+        "eyebrow": "关于我",
+        "hello": "你好，我是焦建维。",
+        "intro": "我是<strong>焦建维</strong>，<a href=\"https://www.nwpu.edu.cn/\" target=\"_blank\" rel=\"noopener\">西北工业大学</a><a href=\"https://jsj.nwpu.edu.cn/\" target=\"_blank\" rel=\"noopener\">计算机学院</a> 2024 级<strong>计算机科学与技术拔尖班</strong>本科生。",
+        "intro2": "关注<strong>多模态理解与视觉语言模型</strong>，目前主要探索<strong>开放词汇分割与测试时适应</strong>。",
+        "educationLabel": "教育背景",
+        "degree": "计算机学院 · 计算机科学与技术拔尖班 · 本科",
+        "expected": "预计毕业",
+        "projectsTitle": "项目与实践",
+        "projectsDeck": "软件开发、创意作品与团队实践。",
+        "awardsTitle": "精选荣誉与获奖",
+        "basketballTitle": "篮球裁判",
+        "courtLabel": "篮球与裁判",
+        "courtTitle": "球场上的另一种协作。",
+        "courtBody": "篮球也是我大学生活的一部分。我参与篮球裁判、协会工作，并为校园赛事提供支持。",
+        "serviceTitle": "学生工作与志愿服务",
+        "serviceDeck": "参与集体事务，为身边的同学与社区贡献力量。",
+        "volunteerTitle": "累计志愿服务小时",
+        "volunteerBody": "参与校园活动、社区服务与社会实践。",
+        "contactLabel": "联系方式",
+        "contactTitle": "欢迎与我交流。",
+        "backTop": "回到顶部",
+        "moreAwards": "查看全部荣誉与获奖",
+        "lessAwards": "收起更多获奖",
+        "details": "查看详情",
+        "close": "关闭详情",
+        "projectLabel": "项目介绍",
+        "roleLabel": "角色与参与",
+        "contextLabel": "项目背景",
+        "noteLabel": "补充说明",
+        "educationNav": "教育",
+        "intro3": "热衷于探索 AI 的可能边界，相信 <strong>AGI</strong>。科研之外，也喜欢软件开发，参与篮球裁判、学生工作与志愿服务。",
+        "navOthers": "其他经历",
+        "othersTitle": "其他经历",
+        "contactBody": "欢迎与我交流多模态理解与视觉语言模型，也期待能够深入学习、参与实践的科研合作与实习机会。",
+        "contactBody2": "我也很愿意交流 AI 项目的想法、方法与实现，和有共同兴趣的伙伴一起探索新问题。如果你感兴趣，欢迎通过邮件联系我，或在 GitHub 上交流。",
+        "aboutKicker": "关于我",
+        "introRobotics": "我也从事<strong>机器人研究</strong>，所在团队在 <strong>2026 RoboCup 中国赛</strong>获<strong>双冠军、一亚军、一季军</strong>。"
+      }
+    },
+    "profile": {
+      "nameEn": "Jianwei Jiao",
+      "nameZh": "焦建维",
+      "email": "jiaojianwei@mail.nwpu.edu.cn",
+      "github": "https://github.com/jjw-creat",
+      "portrait": ""
+    },
+    "projects": [
+      {
+        "kind": [
+          "Innovation · Team leadership",
+          "创新实践 · 项目负责"
+        ],
+        "title": [
+          "Provincial Innovation Training Project",
+          "省级大学生创新创业训练计划项目"
+        ],
+        "body": [
+          "Led a provincial-level undergraduate innovation training project, coordinating its progress, implementation and reporting.",
+          "担任省级大学生创新创业训练计划项目负责人，协调项目推进、实现与阶段总结。"
+        ],
+        "role": [
+          "Project lead; overall progress and task coordination, with participation in solution design and implementation.",
+          "项目负责人，负责整体推进与任务协调，参与方案设计及实现。"
+        ],
+        "context": [
+          "Undergraduate innovation and entrepreneurship training programme.",
+          "大学生创新创业训练计划。"
+        ],
+        "note": [
+          "Completed with an Excellent evaluation.",
+          "项目已优秀结项。"
+        ],
+        "roleBadge": [
+          "Project lead",
+          "项目负责人"
+        ],
+        "result": [
+          "Completed with an Excellent evaluation.",
+          "优秀结项。"
+        ],
+        "image": "",
+        "images": []
+      },
+      {
+        "kind": [
+          "Robotics · Competition practice",
+          "机器人 · 竞赛实践"
+        ],
+        "title": [
+          "Dance Robotics Base",
+          "舞蹈机器人基地"
+        ],
+        "body": [
+          "Participating in robot projects and competition practice at Northwestern Polytechnical University’s Dance Robotics Base.",
+          "参与西北工业大学舞蹈机器人基地的机器人项目与竞赛实践。"
+        ],
+        "role": [
+          "Participant in robot projects and competition practice.",
+          "参与机器人项目与竞赛实践。"
+        ],
+        "context": [
+          "Dance Robotics Base · Northwestern Polytechnical University",
+          "西北工业大学舞蹈机器人基地"
+        ],
+        "note": [
+          "Photos of the base’s competition robots.",
+          "基地比赛机器人照片。"
+        ],
+        "roleBadge": [
+          "Participant",
+          "项目参与"
+        ],
+        "result": [
+          "Hands-on robotics and competition experience.",
+          "积累机器人项目与竞赛实践经验。"
+        ],
+        "image": "assets/competition-robots-1.jpg",
+        "images": [
+          "assets/competition-robots-1.jpg",
+          "assets/competition-robots-2.jpeg"
+        ]
+      }
+    ],
+    "awards": [
+      {
+        "year": "2026.11",
+        "name": [
+          "Ningbo Future Star Scholarship",
+          "宁波未来之星奖学金"
+        ],
+        "prize": [
+          "External Scholarship",
+          "社会奖学金"
+        ],
+        "detail": [
+          "",
+          ""
+        ],
+        "image": "",
+        "level": [
+          "Honor",
+          "荣誉"
+        ],
+        "levelClass": "regional",
+        "topic": [
+          "Scholarship",
+          "奖学金"
+        ],
+        "caption": [
+          "",
+          ""
+        ],
+        "presentation": "scholarship"
+      },
+      {
+        "year": "2026.10",
+        "name": [
+          "RoboCup China · Dance Robot Creative Competition",
+          "中国机器人大赛暨 RoboCup 中国赛 · 舞蹈机器人创意赛"
+        ],
+        "prize": [
+          "Champion",
+          "冠军"
+        ],
+        "detail": [
+          "Qisi Team",
+          "启思队"
+        ],
+        "image": "assets/robocup-2026-champion.png",
+        "level": [
+          "National",
+          "国家级"
+        ],
+        "levelClass": "national",
+        "topic": [
+          "Robotics",
+          "机器人"
+        ],
+        "caption": [
+          "Award certificate · Qisi Team",
+          "获奖证书 · 启思队"
+        ]
+      },
+      {
+        "year": "2026.10",
+        "name": [
+          "RoboCup China · Dance Robot Performance, National Finals",
+          "中国机器人大赛暨 RoboCup 中国赛 · 舞蹈机器人表演赛总决赛"
+        ],
+        "prize": [
+          "Third place",
+          "季军"
+        ],
+        "detail": [
+          "Qixiang Team ",
+          "启翔队 "
+        ],
+        "image": "assets/robocup-2026-award.png",
+        "level": [
+          "National",
+          "国家级"
+        ],
+        "levelClass": "national",
+        "topic": [
+          "Robotics",
+          "机器人"
+        ],
+        "caption": [
+          "Competition award certificate · Qixiang Team",
+          "竞赛获奖证书 · 启翔队"
+        ]
+      },
+      {
+        "year": "2026",
+        "name": [
+          "China Undergraduate Mathematical Contest in Modeling",
+          "全国大学生数学建模竞赛"
+        ],
+        "prize": [
+          "Shaanxi First Prize",
+          "陕西赛区一等奖"
+        ],
+        "detail": [
+          "Undergraduate division",
+          "本科组"
+        ],
+        "image": "assets/modeling-2026-award-list.png",
+        "level": [
+          "Provincial",
+          "省级"
+        ],
+        "levelClass": "regional",
+        "topic": [
+          "Mathematical modeling",
+          "数学建模"
+        ],
+        "caption": [
+          "Shaanxi award list (draft), entry 148",
+          "陕西赛区获奖名单（初稿）节选，第 148 项"
+        ]
+      },
+      {
+        "year": "2026",
+        "name": [
+          "China Collegiate Computing Contest · AIGC Innovation",
+          "中国高校计算机大赛 · AIGC 创新赛"
+        ],
+        "prize": [
+          "Northwest Third Prize",
+          "西北赛区三等奖"
+        ],
+        "detail": [
+          "AI Phone: Intent Before Interface",
+          "作品《AI Phone：意图先于界面》"
+        ],
+        "image": "assets/aigc-award-certificate.png",
+        "level": [
+          "Provincial-level",
+          "省级"
+        ],
+        "levelClass": "regional",
+        "topic": [
+          "AIGC & design",
+          "AIGC 与设计"
+        ],
+        "caption": [
+          "AIGC Innovation Competition · Northwest division",
+          "AIGC 创新赛 · 西北赛区"
+        ]
+      },
+      {
+        "year": "2025",
+        "name": [
+          "18th Advanced Robot and Simulation Technology Competition",
+          "第十八届先进机器人及仿真技术大赛"
+        ],
+        "prize": [
+          "National Third Prize",
+          "国赛三等奖"
+        ],
+        "detail": [
+          "Technology and art integration · Team member",
+          "科技艺术融合组 · 队员"
+        ],
+        "image": "assets/robot-simulation-2025-award.png",
+        "level": [
+          "National",
+          "国家级"
+        ],
+        "levelClass": "national",
+        "topic": [
+          "Robotics",
+          "机器人"
+        ],
+        "caption": [
+          "18th Advanced Robot and Simulation Technology Competition",
+          "第十八届先进机器人及仿真技术大赛"
+        ]
+      },
+      {
+        "year": "2025",
+        "name": [
+          "National Undergraduate Mathematics Competition",
+          "全国大学生数学竞赛"
+        ],
+        "prize": [
+          "Shaanxi Third Prize",
+          "陕西赛区三等奖"
+        ],
+        "detail": [
+          "Non-mathematics Category A",
+          "非数学 A 类"
+        ],
+        "image": "assets/mathematics-2025-award-list.png",
+        "level": [
+          "Provincial",
+          "省级"
+        ],
+        "levelClass": "regional",
+        "topic": [
+          "Mathematics",
+          "数学"
+        ],
+        "caption": [
+          "Award list excerpt; my name is highlighted.",
+          "获奖名单节选，已标出本人姓名。"
+        ]
+      },
+      {
+        "year": "2026.08",
+        "name": [
+          "RoboCup China · Dance Robot Performance, Special Competition",
+          "中国机器人大赛暨 RoboCup 中国赛 · 舞蹈机器人表演赛（专项赛）"
+        ],
+        "prize": [
+          "National Second Prize",
+          "国赛二等奖"
+        ],
+        "detail": [
+          "Qixiang Team · Beijing",
+          "启翔队 · 北京"
+        ],
+        "image": "assets/robocup-2026-special.png",
+        "level": [
+          "National",
+          "国家级"
+        ],
+        "levelClass": "national",
+        "topic": [
+          "Robotics",
+          "机器人"
+        ],
+        "caption": [
+          "2026 special competition award certificate · Qixiang Team",
+          "2026 专项赛获奖证书 · 启翔队"
+        ]
+      },
+      {
+        "year": "2025–2026",
+        "name": [
+          "National 3D Digital Innovation Design Competition · 18th Anniversary Elite League",
+          "全国三维数字化创新设计大赛 18 周年精英联赛"
+        ],
+        "prize": [
+          "Shaanxi Second Prize",
+          "陕西赛区二等奖"
+        ],
+        "detail": [
+          "Biped robot posture control using DDPG and Gemma2 · Abao Team",
+          "基于 DDPG 与 Gemma2 的双足机器人姿态控制 · 阿宝队"
+        ],
+        "image": "assets/3d-design-provincial.png",
+        "level": [
+          "Provincial",
+          "省级"
+        ],
+        "levelClass": "regional",
+        "topic": [
+          "Digital design",
+          "数字化设计"
+        ],
+        "caption": [
+          "Shaanxi award list excerpt · Abao Team",
+          "陕西赛区获奖名单节选 · 阿宝队"
+        ]
+      },
+      {
+        "year": "2025.11",
+        "name": [
+          "18th Advanced Robot and Simulation Technology Competition · Shaanxi Division",
+          "第十八届先进机器人及仿真技术大赛 · 陕西赛区"
+        ],
+        "prize": [
+          "Shaanxi Second Prize",
+          "陕西赛区二等奖"
+        ],
+        "detail": [
+          "Technology and art integration",
+          "科技艺术融合组"
+        ],
+        "image": "assets/robot-simulation-2025-provincial.png",
+        "level": [
+          "Provincial",
+          "省级"
+        ],
+        "levelClass": "regional",
+        "topic": [
+          "Robotics",
+          "机器人"
+        ],
+        "caption": [
+          "Shaanxi Division award certificate",
+          "陕西赛区获奖证书"
+        ]
+      },
+      {
+        "year": "2025.08",
+        "name": [
+          "RoboCup China · Dance Robot Performance, Special Competition",
+          "中国机器人大赛暨 RoboCup 中国赛 · 舞蹈机器人表演赛（专项赛）"
+        ],
+        "prize": [
+          "National Third Prize",
+          "国赛三等奖"
+        ],
+        "detail": [
+          "New Heartbeat Team · Yantai",
+          "新的心跳队 · 烟台"
+        ],
+        "image": "assets/robocup-2025-special.png",
+        "level": [
+          "National",
+          "国家级"
+        ],
+        "levelClass": "national",
+        "topic": [
+          "Robotics",
+          "机器人"
+        ],
+        "caption": [
+          "2025 special competition award certificate · New Heartbeat Team",
+          "2025 专项赛获奖证书 · 新的心跳队"
+        ]
+      }
+    ],
+    "basketball": [
+      {
+        "title": [
+          "National Level 2 Basketball Referee · Current Chief Referee, NPUBA",
+          "国家二级篮球裁判员 · NPUBA 现任裁判长"
+        ],
+        "body": [
+          "Officiated CUBAL grassroots competitions, the China High School Basketball League (耐高), and other basketball events.",
+          "参与 CUBAL 基层赛、耐高等篮球赛事执裁。"
+        ],
+        "note": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "service": [
+      {
+        "title": [
+          "Student leadership",
+          "学生工作"
+        ],
+        "body": [
+          "Served as lead of the Student Union’s Academic & Competition Department, Deputy Head of the Youth League Committee’s Practice Department, and class monitor.",
+          "曾任学院学生会学竞部负责人、团委实践部副部长及班长。"
+        ],
+        "note": [
+          "",
+          ""
+        ]
+      },
+      {
+        "title": [
+          "Community & volunteer service",
+          "社会实践与志愿服务"
+        ],
+        "body": [
+          "300+ hours of volunteer service. Campus and community service, including a winter public-service project recognised with a university First Prize.",
+          "累计志愿服务 300+ 小时。参与校园与社区服务，相关寒假公益项目获校级一等奖。"
+        ],
+        "note": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "education": {
+      "start": "2024",
+      "end": "2028"
+    },
+    "volunteerHours": "300",
+    "basketballLogo": "assets/npuba-logo.jpg",
+    "contentRevision": 4
+  }
+}

@@ -1,0 +1,29 @@
+/* Existing Trebuchet typeface, with clearer editorial hierarchy and quiet gradients. */
+:root{--heading-ink:#354653;--accent-ink:#3f5e7e}
+.intro{font-size:16px;line-height:1.65}
+.about .intro{margin-bottom:16px}
+.intro strong,.intro b{font-weight:700;color:var(--accent-ink)}
+.intro a{color:inherit;text-decoration-color:#aabace;text-underline-offset:3px}
+.section-heading{margin-top:36px;margin-bottom:18px;padding-bottom:13px}
+.section-heading h2,.contact h2{font-size:22px;line-height:1.4;font-weight:700;color:var(--heading-ink)}
+.project-card{padding:24px;gap:26px;min-height:242px;align-items:center;border-color:#dfe6ef;background:linear-gradient(90deg,#fff 0%,#f8faff 45%,#edf4ff 100%);box-shadow:0 2px 8px #2e4d6b05}
+.project-card:nth-child(even){background:linear-gradient(90deg,#fff 0%,#f7faff 45%,#eaf2fc 100%)}
+.project-title-line{align-items:baseline;gap:10px;margin-bottom:10px}
+.project-title-line h3{font-size:18px;line-height:1.5;font-weight:700;color:var(--heading-ink)}
+.project-description{font-size:15px;line-height:1.7;margin-bottom:12px}
+.project-outcome{font-size:14px;line-height:1.7;color:#657584}
+.project-outcome strong{font-weight:700;color:#4d6680}
+.project-footer{margin-top:18px;padding-top:12px;border-top:1px solid #dce5ef80;align-items:center}
+.project-cta{font-weight:700}
+.project-thumb{background:#fff;border-color:#d9e2ed;border-radius:10px;box-shadow:0 2px 8px #29496c06}
+.project-role{font-weight:400}
+.award-content h3,.honors-grid .award-content h3{font-size:17px;line-height:1.55;font-weight:700;color:var(--heading-ink)}
+.award-result{font-weight:700;line-height:1.65;color:var(--accent-ink)}
+.award-context{line-height:1.65}
+#award-list>.award-card-featured{background:linear-gradient(90deg,#fff 0%,#f7faff 45%,#eaf2ff 100%);border-color:#d9e3f0}
+.honors-grid .award-card-featured{background:linear-gradient(90deg,#fff 0%,#f7faff 45%,#eaf2ff 100%)}
+.education{padding-top:22px;padding-bottom:28px}
+.education h3{font-size:17px;line-height:1.5;font-weight:700}
+.experience h4{color:var(--heading-ink)}
+.contact p:not(.eyebrow){font-size:15px;line-height:1.7}
+@media(max-width:760px){.intro{font-size:15px;line-height:1.7}.section-heading{margin-top:30px;margin-bottom:16px}.section-heading h2,.contact h2{font-size:21px}.project-card{padding:18px;gap:18px;min-height:0}.project-title-line h3{font-size:16px;line-height:1.5}.project-description{font-size:14px;line-height:1.7}.project-outcome{font-size:13px}.project-footer{margin-top:14px;padding-top:10px}.award-content h3,.honors-grid .award-content h3{font-size:15px}.project-role{font-size:10px}}
